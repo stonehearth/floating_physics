@@ -1,9 +1,10 @@
 {
-   "info" : {
-      "name" : "floating_physics",
-      "namespace": "floating_physics",
-      "version" : 3
-   },
+	"info" : {
+		"name" : "Floating Physics",
+		"namespace" : "floating_physics",
+		"version" : 3,
+		"steam_file_id" : "1339800430"
+	},
    "default_locale": "en",
    "aliases" : {
       "floating_box" : "file(entities/floating_box/floating_box.json)"

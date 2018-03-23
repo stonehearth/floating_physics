@@ -1,0 +1,21 @@
+{
+   "type" : "recipe",
+   "work_units" : 2,
+   "recipe_name" : "Floating Box",
+   "description" : "This box floats on water",
+   "flavor" : "I wonder what I could use this for?",
+   "portrait" : "/floating_physics/entities/floating_box/floating_box.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement" : 0, 
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"floating_physics:floating_box"
+      }
+  ]
+}

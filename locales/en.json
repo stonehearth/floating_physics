@@ -1,0 +1,10 @@
+{
+   "entities": {
+      "floating_box": {
+         "floating_box_ghost": {
+            "display_name": "Floating Box",
+            "description": "A box that floats on water."
+         }
+      }
+   }
+}

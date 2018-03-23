@@ -1,0 +1,11 @@
+{
+   "craftable_recipes" : {
+      "furniture" : {
+         "recipes" : {
+            "floating_box" : {
+               "recipe" : "file(floating_box_recipe.json)"
+            }            
+         }
+      }
+   }
+}

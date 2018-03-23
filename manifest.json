@@ -1,0 +1,17 @@
+{
+   "info" : {
+      "name" : "floating_physics",
+      "namespace": "floating_physics",
+      "version" : 3
+   },
+   "default_locale": "en",
+   "aliases" : {
+      "floating_box" : "file(entities/floating_box/floating_box.json)"
+   }, 
+   "mixintos" : {
+      "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/recipes.json)"
+   },
+   "overrides" : {
+      "stonehearth/services/server/physics/physics_service.lua" : "file(code/physics_service.lua)"
+   }
+}

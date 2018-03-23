@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(floating_box.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "model_origin": { "x": 0.0, "y": 0, "z": 0.0 },
+         "region_origin": { "x": -0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(floating_physics:entities.floating_box.floating_box_ghost.display_name)",
+         "description": "i18n(floating_physics:entities.floating_box.floating_box_ghost.description)",
+         "icon": "file(floating_box.png)",
+         "category": "furniture",
+         "material_tags": "wood furniture crafted stockpile_furniture"
+      }
+   }
+}

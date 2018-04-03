@@ -275,6 +275,10 @@ function PhysicsService:_should_float(entity)
    end
 
    local location = radiant.entities.get_world_grid_location(entity)
+   if not location then
+      return false
+   end
+   
    local point_below = location - Point3.unit_y
 
    local test_entities = radiant.terrain.get_entities_at_point(point_below)
@@ -461,13 +465,17 @@ function PhysicsService:_move_entity(entity)
       return false
    end
 
+   local location = radiant.entities.get_world_grid_location(entity)
+   if not location then
+      return false
+   end
+
    if not mob:get_in_free_motion() then
       log:debug('taking %s out of free motion', entity)
       return false
    end
 
    if self:_should_float(entity) then
-      local location = radiant.entities.get_world_grid_location(entity)
       local new_location = location
       local above_point = location + Point3.unit_y
 
